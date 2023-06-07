@@ -1,0 +1,283 @@
+
+[TAGCatalogoImagens.DockpaneSearchView.BtnSave_Click(object, System.Windows.RoutedEventArgs)=
+1D:\Workspace\personal\repo\DockpaneSearch.xaml.cs∂ ∂(""0*º
+0
+∏ ø(4TR
+
+π- π(A$
+%0Microsoft.Win32.SaveFileDialog"Microsoft.Win32.SaveFileDialogu
+s
+
+π1 π(?
+
+%1void"/Microsoft.Win32.SaveFileDialog.SaveFileDialog()*(&
+$
+%0Microsoft.Win32.SaveFileDialogq
+o
+
+π π(A1
+saveFileDialog1Microsoft.Win32.SaveFileDialog"__id*(&
+$
+%0Microsoft.Win32.SaveFileDialogÆ
+´
+
+ª ª(R
+%2string"%Microsoft.Win32.FileDialog.Filter.set*53
+1
+saveFileDialog1Microsoft.Win32.SaveFileDialog*1/-
++txt files (*.txt)|*.txt|All files (*.*)|*.*Ö
+Ç
+
+º º(+	
+%3int"*Microsoft.Win32.FileDialog.FilterIndex.set*53
+1
+saveFileDialog1Microsoft.Win32.SaveFileDialog*2ç
+ä
+
+Ω Ω(3
+
+%4bool"/Microsoft.Win32.FileDialog.RestoreDirectory.set*53
+1
+saveFileDialog1Microsoft.Win32.SaveFileDialog*
+""ôñ
+
+ø ø(,
+%5System.Nullable<T>")Microsoft.Win32.CommonDialog.ShowDialog()*53
+1
+saveFileDialog1Microsoft.Win32.SaveFileDialog2ShowDialog()*
+1
+2*È
+1
+¡ ¡(Aâ
+Ü
+
+¡ ¡(8
+%6System.IO.Stream")Microsoft.Win32.SaveFileDialog.OpenFile()*53
+1
+saveFileDialog1Microsoft.Win32.SaveFileDialogL
+J
+
+¡ ¡(8
+streamSystem.IO.Stream"__id*
+
+%6System.IO.Streamv
+t
+
+¡ ¡(A
+
+%7bool""object.operator !=(object, object)*
+"
+object*
+
+streamSystem.IO.Stream*
+""*
+3
+2*ı
+3
+√ ≈(9f
+d
+
+√! √(/
+%8System.Text.Encoding"System.Text.Encoding.ASCII.get*"
+System.Text.Encoding∞≠
+
+√! √(o
+%9byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%8System.Text.Encoding*864
+2SATELITE,DATA,RESOLUCAO,COBERTURA NUVEM,OFF NADIR
+2GetBytes(string)£†
+
+√ √(p
+%10void"1System.IO.Stream.Write(System.ReadOnlySpan<byte>)*
+
+streamSystem.IO.Stream*
+
+%9byte[]2 Write(System.ReadOnlySpan<byte>)ù
+ö
+
+≈3 ≈(9)
+%11"System.Collections.Generic.List<T>"__id*[Y*W'
+%TAGCatalogoImagens.DockpaneSearchView",
+scenes"System.Collections.Generic.List<T>*
+4*
+4
+“	 “(	*
+5
+6*Ë
+5
+∆ Ã( g
+e
+
+∆% ∆(3
+%12System.Text.Encoding"System.Text.Encoding.ASCII.get*"
+System.Text.Encoding¶
+£
+
+« «(0
+%13string"ETAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneSatellite.get*?=
+;
+scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetails[
+Y
+
+« «(6
+%14string"__concat*
+
+« «(0
+
+%13string*
+
+«3 «(6
+,°
+û
+
+» »(+
+%15string"@TAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneDate.get*?=
+;
+scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
+c
+
+« »(+
+%16string"__concat*
+
+« «(6
+
+%14string*
+
+» »(+
+
+%15string[
+Y
+
+« »(1
+%17string"__concat*
+
+« »(+
+
+%16string*
+
+». »(1
+,ß
+§
+
+… …(1
+%18double"FTAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneResolution.get*?=
+;
+scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
+c
+
+« …(1
+%19string"__concat*
+
+« »(1
+
+%17string*
+
+… …(1
+
+%18double[
+Y
+
+« …(7
+%20string"__concat*
+
+« …(1
+
+%19string*
+
+…4 …(7
+,ß
+§
+
+   (1
+%21double"FTAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneCloudCover.get*?=
+;
+scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
+c
+
+«  (1
+%22string"__concat*
+
+« …(7
+
+%20string*
+
+   (1
+
+%21double[
+Y
+
+«  (7
+%23string"__concat*
+
+«  (1
+
+%22string*
+
+ 4  (7
+,•
+¢
+
+À À(/
+%24double"DTAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneOffNadir.get*?=
+;
+scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
+c
+
+« À(/
+%25string"__concat*
+
+«  (7
+
+%23string*
+
+À À(/
+
+%24double[
+Y
+
+« Ã( 
+%26string"__concat*
+
+« À(/
+
+%25string*
+
+Ã Ã( 
+
+ãà
+
+∆% Õ(
+%27byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%12System.Text.Encoding*
+
+%26string2GetBytes(string)§°
+
+∆ Õ(
+%28void"1System.IO.Stream.Write(System.ReadOnlySpan<byte>)*
+
+streamSystem.IO.Stream*
+
+%27byte[]2 Write(System.ReadOnlySpan<byte>)*
+4*t
+6
+œ œ("^\
+
+œ œ("
+%29void"System.IO.Stream.Close()*
+
+streamSystem.IO.Stream2Close()*
+2*2
+2
+“	 “(	"!
+
+“ “(	
+implicit return:
+
+∂# ∂(0
+senderobject:1
+
+∂2 ∂(C#
+eSystem.Windows.RoutedEventArgsB)'
+%TAGCatalogoImagens.DockpaneSearchView

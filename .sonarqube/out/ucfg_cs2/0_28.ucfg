@@ -1,0 +1,128 @@
+
+\TAGCatalogoImagens.DockpaneSearchView.BtnClear_Click(object, System.Windows.RoutedEventArgs)=
+1D:\Workspace\personal\repo\DockpaneSearch.xaml.cs∑ ∑()"0*÷
+0
+π Ω(ú
+ô
+
+π π((
+%0"System.Collections.Generic.List<T>"__id*[Y*W'
+%TAGCatalogoImagens.DockpaneSearchView",
+scenes"System.Collections.Generic.List<T>{
+y
+
+π π(
+
+%1void"1System.Collections.Generic.ICollection<T>.Clear()*,*
+(
+%0"System.Collections.Generic.List<T>°
+û
+
+∫ ∫()
+%2#System.Windows.Threading.Dispatcher"8System.Windows.Threading.DispatcherObject.Dispatcher.get*+)'
+%TAGCatalogoImagens.DockpaneSearchViewè
+å
+
+∫ ∫(f
+
+%3void"9System.Windows.Threading.Dispatcher.Invoke(System.Action)*-+
+)
+%2#System.Windows.Threading.Dispatcher*
+""Ü
+É
+
+º º($$
+%4ArcGIS.Desktop.Mapping.MapView")ArcGIS.Desktop.Mapping.MapView.Active.get*$"" 
+ArcGIS.Desktop.Mapping.MapViewÉ
+Ä
+
+º º(( 
+%5ArcGIS.Desktop.Mapping.Map"&ArcGIS.Desktop.Mapping.MapView.Map.get*(&
+$
+%4ArcGIS.Desktop.Mapping.MapView]
+[
+
+º º((!
+mapArcGIS.Desktop.Mapping.Map"__id*$"
+ 
+%5ArcGIS.Desktop.Mapping.Map}
+{
+
+Ω Ω(
+
+%6bool""object.operator !=(object, object)*
+"
+object*%#
+!
+mapArcGIS.Desktop.Mapping.Map*
+""*
+1
+2*Ø
+1
+ø( ¿(%£
+†
+
+ø4 ø(>D
+%7>System.Collections.ObjectModel.ReadOnlyObservableCollection<T>"%ArcGIS.Desktop.Mapping.Map.Layers.get*%#
+!
+mapArcGIS.Desktop.Mapping.Map
+Ì
+
+ø4 ø(Q/
+%8)System.Collections.Generic.IEnumerable<T>"FSystem.Linq.Enumerable.OfType<TResult>(System.Collections.IEnumerable)*"
+System.Linq.Enumerable*HF
+D
+%7>System.Collections.ObjectModel.ReadOnlyObservableCollection<T>Â
+‚
+
+ø4 ø(Z(
+%9"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*31
+/
+%8)System.Collections.Generic.IEnumerable<T>|
+z
+
+ø( ø(Z8
+	wmsLayers+System.Collections.Generic.IReadOnlyList<T>"__id*,*
+(
+%9"System.Collections.Generic.List<T>ñ
+ì
+
+¿ ¿(%
+%10bool""object.operator !=(object, object)*
+"
+object*<:
+8
+	wmsLayers+System.Collections.Generic.IReadOnlyList<T>*
+""*
+3
+2*
+3
+¡- ¡(6*
+4*
+4
+ƒ	 ƒ(	*
+5
+2*ç
+5
+¬ ¬(Qˆ
+Û
+
+¬ ¬(R"
+%11System.Threading.Tasks.Task"rArcGIS.Desktop.Framework.Threading.Tasks.QueuedTask.Run(System.Action, System.Threading.Tasks.TaskCreationOptions)*97"5
+3ArcGIS.Desktop.Framework.Threading.Tasks.QueuedTask*
+""*
+""*
+4*2
+2
+ƒ	 ƒ(	"!
+
+ƒ ƒ(	
+implicit return:
+
+∑* ∑(7
+senderobject:1
+
+∑9 ∑(J#
+eSystem.Windows.RoutedEventArgsB)'
+%TAGCatalogoImagens.DockpaneSearchView

@@ -1,0 +1,10 @@
+¡
+
+%TAGCatalogoImagens.DockpaneSearchView#System.Windows.Controls.UserControl&System.Windows.Controls.ContentControlSystem.Windows.Controls.ControlSystem.Windows.FrameworkElementSystem.Windows.UIElementSystem.Windows.Media.VisualSystem.Windows.DependencyObject)System.Windows.Threading.DispatcherObjectobject)System.Windows.Markup.IComponentConnectorR
+DockpaneSearchView():TAGCatalogoImagens.DockpaneSearchView.DockpaneSearchView()”
+5BtnLoad_Click(object, System.Windows.RoutedEventArgs)[TAGCatalogoImagens.DockpaneSearchView.BtnLoad_Click(object, System.Windows.RoutedEventArgs)–
+6BtnClear_Click(object, System.Windows.RoutedEventArgs)\TAGCatalogoImagens.DockpaneSearchView.BtnClear_Click(object, System.Windows.RoutedEventArgs)˜
+7BtnSearch_Click(object, System.Windows.RoutedEventArgs)]TAGCatalogoImagens.DockpaneSearchView.BtnSearch_Click(object, System.Windows.RoutedEventArgs)”
+5BtnSave_Click(object, System.Windows.RoutedEventArgs)[TAGCatalogoImagens.DockpaneSearchView.BtnSave_Click(object, System.Windows.RoutedEventArgs)T
+InitializeComponent();TAGCatalogoImagens.DockpaneSearchView.InitializeComponent()¦
+>System.Windows.Markup.IComponentConnector.Connect(int, object)dTAGCatalogoImagens.DockpaneSearchView.System.Windows.Markup.IComponentConnector.Connect(int, object)

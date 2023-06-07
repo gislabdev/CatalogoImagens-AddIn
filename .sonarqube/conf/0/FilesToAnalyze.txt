@@ -1,0 +1,23 @@
+﻿D:\Workspace\personal\repo\Daml.cs
+D:\Workspace\personal\repo\DockpaneSearch.xaml.cs
+D:\Workspace\personal\repo\DockpaneSearchViewModel.cs
+D:\Workspace\personal\repo\Module1.cs
+D:\Workspace\personal\repo\Config.daml
+D:\Workspace\personal\repo\Images\AddInDesktop16.png
+D:\Workspace\personal\repo\Images\AddInDesktop32.png
+D:\Workspace\personal\repo\DarkImages\AddInDesktop16.png
+D:\Workspace\personal\repo\DarkImages\AddInDesktop32.png
+D:\Workspace\personal\repo\Properties\Resources.resx
+D:\Workspace\personal\repo\.gitignore
+D:\Workspace\personal\repo\DockpaneWithProButtons (C#).md
+D:\Workspace\personal\repo\Properties\launchSettings.json
+D:\Workspace\personal\repo\Properties\PublishProfiles\FolderProfile.pubxml
+D:\Workspace\personal\repo\Properties\Settings.settings
+D:\Workspace\personal\repo\README.md
+D:\Workspace\personal\repo\Screenshots\Screen1.png
+D:\Workspace\personal\repo\Screenshots\Screen2.png
+D:\Workspace\personal\repo\DockpaneSearch.xaml
+D:\Workspace\personal\repo\Images\3DShowHidden16.png
+D:\Workspace\personal\repo\Images\80-20Analysis16.png
+D:\Workspace\personal\repo\Images\AddXYEvent16.png
+D:\Workspace\personal\repo\Images\ArcGISProjectOpen16.png

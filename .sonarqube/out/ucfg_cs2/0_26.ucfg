@@ -1,0 +1,44 @@
+
+LTAGCatalogoImagens.DockpaneSearchView.SceneDetails.OnPropertyChanged(string);
+1D:\Workspace\personal\repo\DockpaneSearch.xaml.cso o(,"0*¸
+0q, r(#Z
+X
+q, q(E<
+handler1System.ComponentModel.PropertyChangedEventHandler"__id*
+""Ä
+Á
+r r(#
+
+%0bool"£System.ComponentModel.PropertyChangedEventHandler.operator !=(System.ComponentModel.PropertyChangedEventHandler, System.ComponentModel.PropertyChangedEventHandler)*75"3
+1System.ComponentModel.PropertyChangedEventHandler*@>
+<
+handler1System.ComponentModel.PropertyChangedEventHandler*
+""*
+1
+2*þ
+1t t(Crp
+t" t(D4
+%1.System.ComponentModel.PropertyChangedEventArgs".System.ComponentModel.PropertyChangedEventArgs¹
+¶
+t& t(>
+
+%2void"PSystem.ComponentModel.PropertyChangedEventArgs.PropertyChangedEventArgs(string?)*86
+4
+%1.System.ComponentModel.PropertyChangedEventArgs*
+
+namestring¹
+¶
+t t(E
+
+%3void"qSystem.ComponentModel.PropertyChangedEventHandler.Invoke(object?, System.ComponentModel.PropertyChangedEventArgs)*753
+1System.ComponentModel.PropertyChangedEventHandler*864
+2TAGCatalogoImagens.DockpaneSearchView.SceneDetails*86
+4
+%1.System.ComponentModel.PropertyChangedEventArgs*
+2*.
+2v v("
+v v(
+implicit return:
+o- o(8
+namestringB64
+2TAGCatalogoImagens.DockpaneSearchView.SceneDetails

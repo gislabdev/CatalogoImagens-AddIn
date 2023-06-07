@@ -1,0 +1,10 @@
+-
+"D:\Workspace\personal\repo\Daml.csutf-8:
+1D:\Workspace\personal\repo\DockpaneSearch.xaml.csutf-8>
+5D:\Workspace\personal\repo\DockpaneSearchViewModel.csutf-8.
+%D:\Workspace\personal\repo\Module1.csutf-8F
+;D:\Workspace\personal\repo\Properties\Resources.Designer.csutf-8E
+:D:\Workspace\personal\repo\Properties\Settings.Designer.csutf-8R
+GD:\Workspace\personal\repo\obj\Debug\net6.0-windows\DockpaneSearch.g.csutf-8m
+bD:\Workspace\personal\repo\obj\Debug\net6.0-windows\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8a
+VD:\Workspace\personal\repo\obj\Debug\net6.0-windows\TAGCatalogoImagens.AssemblyInfo.csutf-8
