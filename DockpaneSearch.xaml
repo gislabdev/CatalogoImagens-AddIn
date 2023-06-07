@@ -1,0 +1,281 @@
+﻿<UserControl x:Class="TAGCatalogoImagens.DockpaneSearchView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"   
+             xmlns:ui="clr-namespace:TAGCatalogoImagens"
+             xmlns:extensions="clr-namespace:ArcGIS.Desktop.Extensions;assembly=ArcGIS.Desktop.Extensions"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="300"
+             d:DataContext="{Binding Path=ui.DockpaneSearchViewModel}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <!--
+            <ResourceDictionary.MergedDictionaries>
+                <extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            -->
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Width="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="34" />
+                <RowDefinition Height="34" />
+                <RowDefinition Height="34" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="USUÁRIO" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" />
+            <TextBox Name="txtUser" Grid.Row="0" Grid.Column="1" Margin="5" Text="fernanda.ignacio@ntag.com.br" />
+
+            <Label Grid.Row="1" Grid.Column="0" Content="SENHA" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" />
+            <PasswordBox Name="txtPass" Grid.Row="1" Grid.Column="1" Margin="5" Password="IMG@2023!" />
+
+            <Label Grid.Row="2" Grid.Column="0" Content="CONNECT ID" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" />
+            <PasswordBox Name="txtConnectID" Grid.Row="2" Grid.Column="1" Margin="5" Password="6f1c97da-b87b-43ec-b5af-9953b46898ce" />
+        </Grid>
+        
+        <!-- FILTRO -->
+        <Grid Grid.Row="1" Width="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+
+            <!-- INTERVALO -->
+            <Grid Grid.Row="0" Grid.Column="1" Height="15" Width="Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" />
+                </Grid.ColumnDefinitions>
+
+                <RadioButton Grid.Column="1" Content="Intervalo de Datas" HorizontalAlignment="Center" IsChecked="True" />
+                <RadioButton Grid.Column="3" Content="Intervalo Sazonal" HorizontalAlignment="Center" IsEnabled="False" />
+            </Grid>
+
+            <!-- INTERVALO: DATAS -->
+            <Grid Grid.Row="1" Grid.Column="1" x:Name="grdDateRange" Width="Auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Content="Data Inicial" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" />
+                <DatePicker Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+                <Label Grid.Row="0" Grid.Column="1" Content="Data Inicial" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" />
+                <DatePicker Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+                <Grid Grid.Row="2" Grid.ColumnSpan="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Content="Cobertura Nuvem" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                    <Grid Grid.Row="0" Grid.Column="1" Margin="5,0,5,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" Margin="0,0,10,0">
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                   Content="{Binding ElementName=SliderCloudCover, Path=Minimum}" />
+                            <Label Content="%" VerticalAlignment="Center" Padding="0"/>
+                        </StackPanel>
+
+                        <Grid Grid.Row="0" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20" />
+                                <RowDefinition Height="15" />
+                            </Grid.RowDefinitions>
+
+                            <Slider Grid.Row="0" Grid.Column="0" x:Name="SliderCloudCover" VerticalAlignment="Center" 
+                                    Width="Auto" Minimum="0" Maximum="100" Value="100" 
+                                    SmallChange="5" LargeChange="5" AutoToolTipPlacement="BottomRight" 
+                                    TickFrequency="5" TickPlacement="BottomRight" />
+
+                            <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Margin="0,0,0,0" HorizontalAlignment="Center">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                       Content="{Binding ElementName=SliderCloudCover, Path=Value}" FontWeight="Bold" />
+                                <Label Content="%" VerticalAlignment="Center" Padding="0" FontWeight="Bold" />
+                            </StackPanel>
+                        </Grid>
+
+                        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal" Margin="10,0,0,0">
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                   Content="{Binding ElementName=SliderCloudCover, Path=Maximum}" />
+                            <Label Content="%" VerticalAlignment="Center" Padding="0"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <Label Grid.Row="1" Grid.Column="0" Content="Off Nadir" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                    <Grid Grid.Row="1" Grid.Column="1" Margin="5,0,5,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" Margin="0,0,10,0">
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                   Content="{Binding ElementName=SliderOffNadir, Path=Minimum}" />
+                            <Label Content="º" VerticalAlignment="Center" Padding="0"/>
+                        </StackPanel>
+
+                        <Grid Grid.Row="0" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20" />
+                                <RowDefinition Height="15" />
+                            </Grid.RowDefinitions>
+
+                            <Slider x:Name="SliderOffNadir" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" 
+                                    Width="Auto" Minimum="0" Maximum="60" Value="60" 
+                                    SmallChange="5" LargeChange="5" AutoToolTipPlacement="BottomRight" 
+                                    TickFrequency="5" TickPlacement="BottomRight" />
+
+                            <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Margin="0,0,0,0" HorizontalAlignment="Center">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                       Content="{Binding ElementName=SliderOffNadir, Path=Value}" FontWeight="Bold" />
+                                <Label Content="º" VerticalAlignment="Center" Padding="0" FontWeight="Bold" />
+                            </StackPanel>
+                        </Grid>
+
+                        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal" Margin="10,0,0,0">
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                   Content="{Binding ElementName=SliderOffNadir, Path=Maximum}" />
+                            <Label Content="º" VerticalAlignment="Center" Padding="0"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <Label Grid.Row="2" Grid.Column="0" Content="Resolução" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                    <Grid Grid.Row="2" Grid.Column="1" Margin="5,0,5,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" Margin="0,0,10,0">
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                   Content="{Binding ElementName=SliderResolution, Path=Minimum}" />
+                            <Label Content="m" VerticalAlignment="Center" Padding="0"/>
+                        </StackPanel>
+                        
+                        <Grid Grid.Row="0" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20" />
+                                <RowDefinition Height="15" />
+                            </Grid.RowDefinitions>
+
+                            <Slider x:Name="SliderResolution" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Width="Auto" Minimum="0" Maximum="30" Value="15" SmallChange="5" LargeChange="5" AutoToolTipPlacement="BottomRight" TickFrequency="5" TickPlacement="BottomRight" />
+
+                            <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Margin="0,0,0,0" HorizontalAlignment="Center">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                       Content="{Binding ElementName=SliderResolution, Path=Value}" FontWeight="Bold" />
+                                <Label Content="m" VerticalAlignment="Center" Padding="0" FontWeight="Bold" />
+                            </StackPanel>
+                        </Grid>
+                        
+                        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal" Margin="10,0,0,0">
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0,0,2,0"
+                                   Content="{Binding ElementName=SliderResolution, Path=Maximum}" />
+                            <Label Content="m" VerticalAlignment="Center" Padding="0"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <!-- INTERVALO: SAZONAL -->
+            <Grid Grid.Row="1" x:Name="grdSazonalRange" Visibility="Hidden">
+
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="2" Margin="30,10,30,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="BtnClear" IsEnabled="false" Grid.Column="0" Content="LIMPAR" Margin="5,5,5,5" FontWeight="Bold" Click="BtnClear_Click" />
+            <Button x:Name="BtnSearch" Grid.Column="1" Content="PESQUISAR" Margin="5,5,5,5" FontWeight="Bold" Click="BtnSearch_Click" />
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <DataGrid x:Name="GridSearchResult" AutoGenerateColumns="False" IsEnabled="false" SelectionMode="Extended"
+                      CanUserAddRows="False" CanUserDeleteRows="False" 
+                      CanUserReorderColumns="False" CanUserSortColumns="False"
+                      ScrollViewer.CanContentScroll="True" 
+                      ScrollViewer.VerticalScrollBarVisibility="Visible"
+                      ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn x:Name="SceneSelectedColumn" IsReadOnly="False" Binding="{Binding sceneSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <DataGridCheckBoxColumn.ElementStyle>
+                            <Style TargetType="CheckBox" />
+                        </DataGridCheckBoxColumn.ElementStyle>
+                    </DataGridCheckBoxColumn>
+                    <DataGridTextColumn Header="Data" IsReadOnly="True" Visibility="Hidden" Binding="{Binding sceneFeatureID, Mode=TwoWay}"/>
+                    <DataGridTextColumn Header="Satélite" IsReadOnly="True" Binding="{Binding sceneSatellite, Mode=TwoWay}"/>
+                    <DataGridTextColumn Header="Data" IsReadOnly="True" Binding="{Binding sceneDate, Mode=TwoWay}"/>
+                    <DataGridTextColumn Header="Resolução" IsReadOnly="True" Binding="{Binding sceneResolution, Mode=TwoWay}"/>
+                    <DataGridTextColumn Header="% Nuvens" IsReadOnly="True" Binding="{Binding sceneCloudCover, Mode=TwoWay}"/>
+                    <DataGridTextColumn Header="Off-Nadir" IsReadOnly="True" Binding="{Binding sceneOffNadir, Mode=TwoWay}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Grid Grid.Row="4" Margin="30,10,30,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <!--<ColumnDefinition Width="*" />-->
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="BtnSave" IsEnabled="false" Grid.Column="0" Content="SALVAR" Margin="5,5,5,5" FontWeight="Bold" Click="BtnSave_Click" />
+            <Button x:Name="BtnLoad" IsEnabled="false" Grid.Column="1" Content="CARREGAR" Margin="5,5,5,5" FontWeight="Bold" Click="BtnLoad_Click" />
+            <!--<Button x:Name="BtnSubmit" IsEnabled="false" Grid.Column="2" Content="BAIXAR" Margin="5,5,5,5" FontWeight="Bold" />-->
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DockpaneWithProButtons</name>
+    </assembly>
+    <members>
+        <member name="T:DockpaneWithProButtons.DockpaneWithButtonsView">
+            <summary>
+            Interaction logic for DockpaneWithButtonsView.xaml
+            </summary>
+            <summary>
+            DockpaneWithButtonsView
+            </summary>
+        </member>
+        <member name="M:DockpaneWithProButtons.DockpaneWithButtonsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:DockpaneWithProButtons.DockpaneWithButtonsViewModel.Show">
+            <summary>
+            Show the DockPane.
+            </summary>
+        </member>
+        <member name="F:DockpaneWithProButtons.DockpaneWithButtonsViewModel._heading">
+            <summary>
+            Text shown near the top of the DockPane.
+            </summary>
+        </member>
+        <member name="T:DockpaneWithProButtons.DockpaneWithButtons_ShowButton">
+            <summary>
+            Button implementation to show the DockPane.
+            </summary>
+        </member>
+        <member name="T:DockpaneWithProButtons.Module1">
+            <summary>
+            This MVVM / XAML sample shows how to implement ArcGIS Pro button functionality using a Button on an ArcGIS Pro API Dockpane using MVVM.
+            </summary>
+            <remarks>
+            1. In Visual Studio build the solution and run the debugger to open ArcGIS Pro.
+            1. In ArcGIS Pro open any project or a new map.  
+            1. Select the 'Add-in' tab, and then click on 'Probuttons Dockpane' to open the test dockpane.
+            ![Screen1](Screenshots/Screen1.png)
+            1. All button except the 'Open Project' button implement a 'Command Parameter' which passes the content of a text box to the code behind for the ICommand
+            ![Screen1](Screenshots/Screen2.png)
+            1. Click the 'Open Project' image button to open a new ArcGIS project file.
+            </remarks>
+        </member>
+        <member name="P:DockpaneWithProButtons.Module1.Current">
+            <summary>
+            Retrieve the singleton instance to this module here
+            </summary>
+        </member>
+        <member name="M:DockpaneWithProButtons.Module1.CanUnload">
+            <summary>
+            Called by Framework when ArcGIS Pro is closing
+            </summary>
+            <returns>False to prevent Pro from closing, otherwise True</returns>
+        </member>
+    </members>
+</doc>
