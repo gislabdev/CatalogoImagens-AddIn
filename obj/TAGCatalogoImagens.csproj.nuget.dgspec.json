@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\personal\\20230413-TAG\\source\\TAGCatalogoImagens\\TAGCatalogoImagens.csproj": {}
+    "D:\\Workspace\\personal\\repo\\TAGCatalogoImagens.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\personal\\20230413-TAG\\source\\TAGCatalogoImagens\\TAGCatalogoImagens.csproj": {
+    "D:\\Workspace\\personal\\repo\\TAGCatalogoImagens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\personal\\20230413-TAG\\source\\TAGCatalogoImagens\\TAGCatalogoImagens.csproj",
+        "projectUniqueName": "D:\\Workspace\\personal\\repo\\TAGCatalogoImagens.csproj",
         "projectName": "TAGCatalogoImagens",
-        "projectPath": "D:\\Workspace\\personal\\20230413-TAG\\source\\TAGCatalogoImagens\\TAGCatalogoImagens.csproj",
+        "projectPath": "D:\\Workspace\\personal\\repo\\TAGCatalogoImagens.csproj",
         "packagesPath": "C:\\Users\\drosanelli\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\personal\\20230413-TAG\\source\\TAGCatalogoImagens\\obj\\",
+        "outputPath": "D:\\Workspace\\personal\\repo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\VS\\2022\\Shared\\NuGetPackages"
