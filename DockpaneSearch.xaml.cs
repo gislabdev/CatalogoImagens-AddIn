@@ -33,6 +33,7 @@ using ArcGIS.Core.CIM;
 using Microsoft.Win32;
 using ArcGIS.Desktop.Internal.Framework;
 using System.ComponentModel;
+using System.Security.Cryptography;
 
 namespace TAGCatalogoImagens
 {
@@ -122,16 +123,10 @@ namespace TAGCatalogoImagens
         {
             get
             {
-                Random rnd = new Random();
-                //Dictionary of strings
-                string[] words = { "Bold", "Think", "Friend", "Pony", "Fall", "Easy" };
-                //Random number from - to
-                int randomNumber = rnd.Next(2000, 3000);
-                //Create combination of word + number
-                string randomString = $"{words[rnd.Next(0, words.Length)]}{randomNumber}";
-
-                return randomString;
-
+                var randomGenerator = RandomNumberGenerator.Create(); // Compliant for security-sensitive use cases
+                byte[] data = new byte[16];
+                randomGenerator.GetBytes(data);
+                return BitConverter.ToString(data);
             }
         }
         

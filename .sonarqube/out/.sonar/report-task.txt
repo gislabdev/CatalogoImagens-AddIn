@@ -1,0 +1,7 @@
+organization=gislab-development
+projectKey=gislabdev_CatalogoImagens-AddIn
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.42239
+dashboardUrl=https://sonarcloud.io/dashboard?id=gislabdev_CatalogoImagens-AddIn
+ceTaskId=AYiX94N8q08tzD4AhnSt
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYiX94N8q08tzD4AhnSt

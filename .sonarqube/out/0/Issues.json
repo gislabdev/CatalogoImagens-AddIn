@@ -1314,27 +1314,6 @@
           }
         },
         {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'wmsLayers'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Workspace/personal/repo/DockpaneSearch.xaml.cs",
-                "region": {
-                  "startLine": 174,
-                  "startColumn": 25,
-                  "endLine": 174,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1066",
           "level": "warning",
           "message": "Merge this if statement with the enclosing one.",
@@ -1360,6 +1339,27 @@
                   "startColumn": 13,
                   "endLine": 319,
                   "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'wmsLayers'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Workspace/personal/repo/DockpaneSearch.xaml.cs",
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 25,
+                  "endLine": 174,
+                  "endColumn": 34
                 }
               }
             }

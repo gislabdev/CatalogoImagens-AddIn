@@ -1,13 +1,44 @@
 
-DTAGCatalogoImagens.DockpaneSearchViewModel.DockpaneSearchViewModel()?
-5D:\Workspace\personal\repo\DockpaneSearchViewModel.cs ()"1*ç
-1/ (/y
-w
-
-%0void"6ArcGIS.Desktop.Framework.Contracts.DockPane.DockPane()*1/-
-+ArcGIS.Desktop.Framework.Contracts.DockPane*
-0*.
-0/ (/"
-. (/
-implicit returnB.,
-*TAGCatalogoImagens.DockpaneSearchViewModel
+&TAGCatalogoImagens.Module1.Current.get/
+%D:\Workspace\personal\repo\Module1.cs; ;(!"0*î
+0;% ;(*}
+{
+;% ;(* 
+%0TAGCatalogoImagens.Module1"__id*GE*C
+TAGCatalogoImagens.Module1"#
+_thisTAGCatalogoImagens.Module1*
+1
+2*∫
+1;/ ;(s÷
+”
+;8 ;(t/
+%1)ArcGIS.Desktop.Framework.Contracts.Module"@ArcGIS.Desktop.Framework.FrameworkApplication.FindModule(string)*31"/
+-ArcGIS.Desktop.Framework.FrameworkApplication*
+TAGCatalogoImagens_ModuleM
+K
+;/ ;(t
+%2"__id*31
+/
+%1)ArcGIS.Desktop.Framework.Contracts.Module*
+2*è
+2;% ;(t|
+z
+;% ;(t 
+%3TAGCatalogoImagens.Module1"__concat*.
+;% ;(*"
+ 
+%0TAGCatalogoImagens.Module1*
+;/ ;(t
+
+%2}
+{
+;% ;(tC
+TAGCatalogoImagens.Module1"#
+_thisTAGCatalogoImagens.Module1"__id*$"
+ 
+%3TAGCatalogoImagens.Module1*
+3*.
+3;u ;(u"
+;t ;(u
+implicit returnB"
+TAGCatalogoImagens.Module1

@@ -1,50 +1,14 @@
 
-1TAGCatalogoImagens.DockpaneSearchViewModel.Show()?
-5D:\Workspace\personal\repo\DockpaneSearchViewModel.cs   (!"0*º
-0" #(µ
-²
-" "(@.
-%0(ArcGIS.Desktop.Framework.DockPaneManager"AArcGIS.Desktop.Framework.FrameworkApplication.DockPaneManager.get*31"/
--ArcGIS.Desktop.Framework.FrameworkApplication"
- 
-"F "(Q
-%1"__id*
-""µ
-²
-" "(R1
-%2+ArcGIS.Desktop.Framework.Contracts.DockPane"5ArcGIS.Desktop.Framework.DockPaneManager.Find(string)*20
-.
-%0(ArcGIS.Desktop.Framework.DockPaneManager*
-
-%1~
-|
-" "(R3
-pane+ArcGIS.Desktop.Framework.Contracts.DockPane"__id*53
-1
-%2+ArcGIS.Desktop.Framework.Contracts.DockPaneŽ
-‹
-# #(
+6TAGCatalogoImagens.DockpaneSearch_ShowButton.OnClick()?
+5D:\Workspace\personal\repo\DockpaneSearchViewModel.cs/  /('"0*‘
+01 1(*}
+{
+1 1(*
 
-%3bool""object.operator ==(object, object)*
-"
-object*75
-3
-pane+ArcGIS.Desktop.Framework.Contracts.DockPane*
-""*
-1
-2*!
-1'	 '(	"
-$ $(
-""*Ÿ
-2& &(Š
-‡
-& &(
-
-%4void"6ArcGIS.Desktop.Framework.Contracts.DockPane.Activate()*75
-3
-pane+ArcGIS.Desktop.Framework.Contracts.DockPane*
-3*.
-3'	 '(	"
-' '(	
-implicit returnB.",
-*TAGCatalogoImagens.DockpaneSearchViewModel
+%0void"1TAGCatalogoImagens.DockpaneSearchViewModel.Show()*0.",
+*TAGCatalogoImagens.DockpaneSearchViewModel*
+1*.
+12	 2(	"
+2 2(	
+implicit returnB0.
+,TAGCatalogoImagens.DockpaneSearch_ShowButton

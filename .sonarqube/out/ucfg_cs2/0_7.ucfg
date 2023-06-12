@@ -1,14 +1,10 @@
 
-6TAGCatalogoImagens.DockpaneSearch_ShowButton.OnClick()?
-5D:\Workspace\personal\repo\DockpaneSearchViewModel.cs/  /('"0*‘
-01 1(*}
-{
-1 1(*
-
-%0void"1TAGCatalogoImagens.DockpaneSearchViewModel.Show()*0.",
-*TAGCatalogoImagens.DockpaneSearchViewModel*
-1*.
-12	 2(	"
-2 2(	
-implicit returnB0.
-,TAGCatalogoImagens.DockpaneSearch_ShowButton
+&TAGCatalogoImagens.Module1.CanUnload()/
+%D:\Workspace\personal\repo\Module1.csB B(%"0*!
+0F F("
+F F(
+""*.
+1G G("
+G G(
+implicit returnB
+TAGCatalogoImagens.Module1

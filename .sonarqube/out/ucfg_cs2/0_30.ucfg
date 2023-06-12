@@ -1,283 +1,128 @@
 
-[TAGCatalogoImagens.DockpaneSearchView.BtnSave_Click(object, System.Windows.RoutedEventArgs)=
-1D:\Workspace\personal\repo\DockpaneSearch.xaml.cs∂ ∂(""0*º
+\TAGCatalogoImagens.DockpaneSearchView.BtnClear_Click(object, System.Windows.RoutedEventArgs)=
+1D:\Workspace\personal\repo\DockpaneSearch.xaml.cs∑ ∑()"0*÷
 0
-∏ ø(4TR
+π Ω(ú
+ô
 
-π- π(A$
-%0Microsoft.Win32.SaveFileDialog"Microsoft.Win32.SaveFileDialogu
-s
-
-π1 π(?
-
-%1void"/Microsoft.Win32.SaveFileDialog.SaveFileDialog()*(&
-$
-%0Microsoft.Win32.SaveFileDialogq
-o
-
-π π(A1
-saveFileDialog1Microsoft.Win32.SaveFileDialog"__id*(&
-$
-%0Microsoft.Win32.SaveFileDialogÆ
-´
-
-ª ª(R
-%2string"%Microsoft.Win32.FileDialog.Filter.set*53
-1
-saveFileDialog1Microsoft.Win32.SaveFileDialog*1/-
-+txt files (*.txt)|*.txt|All files (*.*)|*.*Ö
-Ç
-
-º º(+	
-%3int"*Microsoft.Win32.FileDialog.FilterIndex.set*53
-1
-saveFileDialog1Microsoft.Win32.SaveFileDialog*2ç
-ä
-
-Ω Ω(3
-
-%4bool"/Microsoft.Win32.FileDialog.RestoreDirectory.set*53
-1
-saveFileDialog1Microsoft.Win32.SaveFileDialog*
-""ôñ
-
-ø ø(,
-%5System.Nullable<T>")Microsoft.Win32.CommonDialog.ShowDialog()*53
-1
-saveFileDialog1Microsoft.Win32.SaveFileDialog2ShowDialog()*
-1
-2*È
-1
-¡ ¡(Aâ
-Ü
-
-¡ ¡(8
-%6System.IO.Stream")Microsoft.Win32.SaveFileDialog.OpenFile()*53
-1
-saveFileDialog1Microsoft.Win32.SaveFileDialogL
-J
-
-¡ ¡(8
-streamSystem.IO.Stream"__id*
-
-%6System.IO.Streamv
-t
-
-¡ ¡(A
-
-%7bool""object.operator !=(object, object)*
-"
-object*
-
-streamSystem.IO.Stream*
-""*
-3
-2*ı
-3
-√ ≈(9f
-d
-
-√! √(/
-%8System.Text.Encoding"System.Text.Encoding.ASCII.get*"
-System.Text.Encoding∞≠
-
-√! √(o
-%9byte[]"%System.Text.Encoding.GetBytes(string)*
-
-%8System.Text.Encoding*864
-2SATELITE,DATA,RESOLUCAO,COBERTURA NUVEM,OFF NADIR
-2GetBytes(string)£†
-
-√ √(p
-%10void"1System.IO.Stream.Write(System.ReadOnlySpan<byte>)*
-
-streamSystem.IO.Stream*
-
-%9byte[]2 Write(System.ReadOnlySpan<byte>)ù
-ö
-
-≈3 ≈(9)
-%11"System.Collections.Generic.List<T>"__id*[Y*W'
+π π((
+%0"System.Collections.Generic.List<T>"__id*[Y*W'
 %TAGCatalogoImagens.DockpaneSearchView",
-scenes"System.Collections.Generic.List<T>*
-4*
-4
-“	 “(	*
-5
-6*Ë
-5
-∆ Ã( g
-e
+scenes"System.Collections.Generic.List<T>{
+y
 
-∆% ∆(3
-%12System.Text.Encoding"System.Text.Encoding.ASCII.get*"
-System.Text.Encoding¶
-£
+π π(
 
-« «(0
-%13string"ETAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneSatellite.get*?=
-;
-scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetails[
-Y
-
-« «(6
-%14string"__concat*
-
-« «(0
-
-%13string*
-
-«3 «(6
-,°
+%1void"1System.Collections.Generic.ICollection<T>.Clear()*,*
+(
+%0"System.Collections.Generic.List<T>°
 û
 
-» »(+
-%15string"@TAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneDate.get*?=
-;
-scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
-c
+∫ ∫()
+%2#System.Windows.Threading.Dispatcher"8System.Windows.Threading.DispatcherObject.Dispatcher.get*+)'
+%TAGCatalogoImagens.DockpaneSearchViewè
+å
 
-« »(+
-%16string"__concat*
+∫ ∫(f
 
-« «(6
+%3void"9System.Windows.Threading.Dispatcher.Invoke(System.Action)*-+
+)
+%2#System.Windows.Threading.Dispatcher*
+""Ü
+É
 
-%14string*
+º º($$
+%4ArcGIS.Desktop.Mapping.MapView")ArcGIS.Desktop.Mapping.MapView.Active.get*$"" 
+ArcGIS.Desktop.Mapping.MapViewÉ
+Ä
 
-» »(+
+º º(( 
+%5ArcGIS.Desktop.Mapping.Map"&ArcGIS.Desktop.Mapping.MapView.Map.get*(&
+$
+%4ArcGIS.Desktop.Mapping.MapView]
+[
 
-%15string[
-Y
+º º((!
+mapArcGIS.Desktop.Mapping.Map"__id*$"
+ 
+%5ArcGIS.Desktop.Mapping.Map}
+{
 
-« »(1
-%17string"__concat*
+Ω Ω(
 
-« »(+
+%6bool""object.operator !=(object, object)*
+"
+object*%#
+!
+mapArcGIS.Desktop.Mapping.Map*
+""*
+1
+2*Ø
+1
+ø( ¿(%£
+†
 
-%16string*
+ø4 ø(>D
+%7>System.Collections.ObjectModel.ReadOnlyObservableCollection<T>"%ArcGIS.Desktop.Mapping.Map.Layers.get*%#
+!
+mapArcGIS.Desktop.Mapping.Map
+Ì
 
-». »(1
-,ß
-§
+ø4 ø(Q/
+%8)System.Collections.Generic.IEnumerable<T>"FSystem.Linq.Enumerable.OfType<TResult>(System.Collections.IEnumerable)*"
+System.Linq.Enumerable*HF
+D
+%7>System.Collections.ObjectModel.ReadOnlyObservableCollection<T>Â
+‚
 
-… …(1
-%18double"FTAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneResolution.get*?=
-;
-scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
-c
+ø4 ø(Z(
+%9"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*31
+/
+%8)System.Collections.Generic.IEnumerable<T>|
+z
 
-« …(1
-%19string"__concat*
+ø( ø(Z8
+	wmsLayers+System.Collections.Generic.IReadOnlyList<T>"__id*,*
+(
+%9"System.Collections.Generic.List<T>ñ
+ì
 
-« »(1
+¿ ¿(%
+%10bool""object.operator !=(object, object)*
+"
+object*<:
+8
+	wmsLayers+System.Collections.Generic.IReadOnlyList<T>*
+""*
+3
+2*
+3
+¡- ¡(6*
+4*
+4
+ƒ	 ƒ(	*
+5
+2*ç
+5
+¬ ¬(Qˆ
+Û
 
-%17string*
-
-… …(1
-
-%18double[
-Y
-
-« …(7
-%20string"__concat*
-
-« …(1
-
-%19string*
-
-…4 …(7
-,ß
-§
-
-   (1
-%21double"FTAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneCloudCover.get*?=
-;
-scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
-c
-
-«  (1
-%22string"__concat*
-
-« …(7
-
-%20string*
-
-   (1
-
-%21double[
-Y
-
-«  (7
-%23string"__concat*
-
-«  (1
-
-%22string*
-
- 4  (7
-,•
-¢
-
-À À(/
-%24double"DTAGCatalogoImagens.DockpaneSearchView.SceneDetails.sceneOffNadir.get*?=
-;
-scene2TAGCatalogoImagens.DockpaneSearchView.SceneDetailse
-c
-
-« À(/
-%25string"__concat*
-
-«  (7
-
-%23string*
-
-À À(/
-
-%24double[
-Y
-
-« Ã( 
-%26string"__concat*
-
-« À(/
-
-%25string*
-
-Ã Ã( 
-
-ãà
-
-∆% Õ(
-%27byte[]"%System.Text.Encoding.GetBytes(string)*
-
-%12System.Text.Encoding*
-
-%26string2GetBytes(string)§°
-
-∆ Õ(
-%28void"1System.IO.Stream.Write(System.ReadOnlySpan<byte>)*
-
-streamSystem.IO.Stream*
-
-%27byte[]2 Write(System.ReadOnlySpan<byte>)*
-4*t
-6
-œ œ("^\
-
-œ œ("
-%29void"System.IO.Stream.Close()*
-
-streamSystem.IO.Stream2Close()*
-2*2
+¬ ¬(R"
+%11System.Threading.Tasks.Task"rArcGIS.Desktop.Framework.Threading.Tasks.QueuedTask.Run(System.Action, System.Threading.Tasks.TaskCreationOptions)*97"5
+3ArcGIS.Desktop.Framework.Threading.Tasks.QueuedTask*
+""*
+""*
+4*2
 2
-“	 “(	"!
+ƒ	 ƒ(	"!
 
-“ “(	
+ƒ ƒ(	
 implicit return:
 
-∂# ∂(0
+∑* ∑(7
 senderobject:1
 
-∂2 ∂(C#
+∑9 ∑(J#
 eSystem.Windows.RoutedEventArgsB)'
 %TAGCatalogoImagens.DockpaneSearchView
